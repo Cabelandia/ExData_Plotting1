@@ -20,4 +20,5 @@ plot1<-function(){
   
   #Turn off the device
   dev.off()
+  
 }
