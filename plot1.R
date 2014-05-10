@@ -18,7 +18,11 @@ plot1<-function(){
   hist(as.numeric(dataOfInterest$Global_active_power), col="red",main = "Global Active Power",
        xlab="Global Active Power (kilowatts)", ylab="Frequency")
   
+<<<<<<< HEAD
   #Close the device 
+=======
+  #Turn off the device
+>>>>>>> f2d249e04e2a43731b9c15c6794ddcd4e0d360c0
   dev.off()
   
 }
